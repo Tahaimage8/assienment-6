@@ -5,7 +5,7 @@ const Navbar = () => {
 
 return (
 
-<nav className="px-6 md:px-16 py-4 bg-white shadow-sm">
+<nav className="px-6 md:px-16 py-4 bg-white shadow-sm max-w-7xl mx-auto">
 
 <div className="flex items-center justify-between">
 
