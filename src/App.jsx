@@ -8,12 +8,15 @@ function App() {
 
 
   return (
-    <>
+    < >
+<div className=''>
 
 
    <Navbar></Navbar>
   <Banner></Banner>
   <Star></Star>
+
+</div>
     </>
   )
 }
