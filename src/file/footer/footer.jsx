@@ -1,7 +1,7 @@
 import { AppWindowMac, SquareStop, Tally1 } from "lucide-react";
 import React from "react";
-
-
+import { FaFacebook ,FaInstagram } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
 const Footer = () => {
   return (
     <footer className="bg-[#0B1A2B] text-white px-6 py-14">
@@ -57,14 +57,14 @@ const Footer = () => {
 
 
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 flex items-center justify-center bg-white text-black rounded-full text-sm cursor-pointer">
-    <SquareStop />
+            <div className="w-8 h-8 flex items-center justify-center bg-white text-black rounded-full text-sm cursor-pointer hover:bg-gray-200 transition">
+    <FaInstagram />
             </div>
-            <div className="w-8 h-8 flex items-center justify-center bg-white text-black rounded-full text-sm cursor-pointer">
-              f
+            <div className="w-8 h-8 flex items-center justify-center bg-white text-black rounded-full text-sm cursor-pointer hover:bg-gray-200 transition">
+<FaFacebook />
             </div>
-            <div className="w-8 h-8 flex items-center justify-center bg-white text-black rounded-full text-sm cursor-pointer">
-<Tally1></Tally1>
+            <div className="w-8 h-8 flex items-center justify-center bg-white text-black rounded-full text-sm cursor-pointer hover:bg-gray-200 transition">
+<CiLinkedin />
             </div>
           </div>
 

@@ -13,14 +13,14 @@ import Cart from './file/main/Cart'
 const stepPromise = fetch("/step.json").then(res => res.json());
 
 
-const getModels = async () => {
-  const res = await fetch('/models.json')
-  return res.json();
-}
-   const productPromise = getModels();
 function App() {
-
-
+  
+  const getModels = async () => {
+    const res = await fetch('/models.json')
+    return res.json();
+  }
+  const productPromise = getModels();
+  
   const [activeTab, setActiveTab] = useState('model');
   const [carts, setCarts] = useState([])
   return (
@@ -39,11 +39,15 @@ function App() {
   <input type="radio" name="my_tabs_1" className="tab rounded-full w-30" aria-label="Products" defaultChecked onClick={()=> setActiveTab("model")} />
   <input type="radio" name="my_tabs_1" className="tab rounded-full w-30" aria-label={`Cart ${carts.length > 0 ? carts.length : ""}`} onClick={()=> setActiveTab('cart')} />
 </div>
-   {activeTab==="model"?<Models productPromise={productPromise} carts={carts} setCarts={setCarts} ></Models> : null}
+<Suspense fallback={<div className="flex justify-center items-center h-screen">
+  <span className="loading loading-spinner loading-lg"></span>
+</div>}>
+     {activeTab==="model"?<Models productPromise={productPromise} carts={carts} setCarts={setCarts} ></Models> : null}
 
 
   { activeTab==="cart"&&  <Cart carts={carts} setCarts={setCarts}></Cart>}
 
+</Suspense>
     <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
       <Step stepPromise={stepPromise} />
     </Suspense>

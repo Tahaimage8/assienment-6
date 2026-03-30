@@ -33,10 +33,11 @@ toast.error(`Item Deleted ${item.name}`);
                 <img className='h-20 w-20 object-contain' src={item.icon}/>
                 </div>
                 <div>
-                <h2 className='text-xl font-bold'>{item.name}</h2>
+                <h2 className='text-2xl font-bold'>{item.name}</h2>
+                <div className='text-xl font-bold'>${item.price}/Month</div>
                 </div>
         </div>
-           <div className='flex gap-10'>     <div className='text-3xl font-bold'>${item.price}/Month</div>
+           <div>     
             <button onClick={()=>handleDelete(item)} className='text-[#FF3980]'>Delete</button></div>
     </div>
 )
