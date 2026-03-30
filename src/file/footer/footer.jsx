@@ -46,7 +46,12 @@ const Footer = () => {
               <li >Contact</li>
             </ul>
           </div>
-                  <div className="flex items-center gap-3">
+
+<div>
+                    <div className="mb-3"> 
+                      <p className="text-xl text-[#FFFFFF]">Social Links</p>
+                    </div>
+                <div className="flex items-center gap-3">
             <div className="w-8 h-8 flex items-center justify-center bg-white text-black rounded-full text-sm cursor-pointer hover:bg-gray-200 transition">
     <FaInstagram />
             </div>
@@ -57,6 +62,7 @@ const Footer = () => {
 <CiLinkedin />
             </div>
           </div>
+</div>
         </div>
 
         <div className="mt-10 border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">

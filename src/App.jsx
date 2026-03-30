@@ -37,7 +37,7 @@ function App() {
   </div>
   <div className="tabs tabs-box  justify-center bg-transparent ">
   <input type="radio" name="my_tabs_1" className="tab rounded-full w-30" aria-label="Products" defaultChecked onClick={()=> setActiveTab("model")} />
-  <input type="radio" name="my_tabs_1" className="tab rounded-full w-30" aria-label={`Cart (${carts.length > 0 ? carts.length : ""})`} onClick={()=> setActiveTab('cart')} />
+  <input type="radio" name="my_tabs_1" className="tab rounded-full w-30"  aria-label={`Cart ${carts.length > 0 ? `(${carts.length})` : ""}`}  onClick={()=> setActiveTab('cart')} />
 </div>
 <Suspense fallback={<div className="flex justify-center items-center h-screen">
   <span className="loading loading-spinner loading-lg"></span>

@@ -41,7 +41,7 @@ const Model = ({model,setCarts,carts }) => {
             <h2 className='text-2xl font-bold'>{model.name}</h2>
             <p>{model.description}</p>
   
-            <div className='text-2xl font-bold'>${model.price}/mouth</div>
+            <div className='text-2xl font-bold'>${model.price}/{model.period}</div>
             <div >
                 {
                     model.features.map(feature=>{
