@@ -1,16 +1,29 @@
-# React + Vite
+🚀 AI Tools Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and interactive interface for users to explore and manage all premium AI tools in one place.
 
-Currently, two official plugins are available:
+📖 About The Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is developed with an aim to make it easier for users to explore and manage all AI tools.
 
-## React Compiler
+Users do not have to switch between multiple platforms. They can explore all AI tools, get more information about them, and manage their selected tools in a simple shopping cart.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The primary focus was on making it fast, clean, and user-friendly. No complexity is added here.
 
-## Expanding the ESLint configuration
+⚙️ Tech Stack
+⚛️ React (Frontend)
+🎨 Tailwind CSS + DaisyUI
+📦 JSON (Local data handling)
+🧠 JavaScript (State & Logic)
+✨ Key Features
+1. Interactive Tool Listing
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+All AI tools are fetched from JSON data and displayed in an interactive manner.
+
+2. Cart System
+
+Users can easily add or remove tools from the shopping cart, providing a real-world experience.
+
+3. Tab-Based Navigation
+
+Smooth transition is provided between sections like models and cart.
