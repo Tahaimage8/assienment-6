@@ -41,7 +41,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["Payment gateway integration", "Inventory tracking", "Discount system"],
-    "icon": "/src/assets/products/shopping-cart.png"
+    "icon": "https://i.ibb.co.com/HTJCKcM2/shopping-cart.png"
   },
   {
     "id": 5,
@@ -107,6 +107,6 @@
     "tag": "new",
     "tagType": "new",
     "features": ["Abandoned cart recovery", "Advanced analytics", "Multi-currency support"],
-    "icon": "/src/assets/products/shopping-cart.png"
+    "icon": "https://i.ibb.co.com/HTJCKcM2/shopping-cart.png"
   }
 ]
