@@ -53,7 +53,7 @@ const Model = ({model,setCarts,carts }) => {
             <button className=' w-full btn btn-outline btn-success text-black mt-5'
                 onClick={handleBuy}
             >
-            {isBuy ? "Buyed" : "buy Now"}
+            {isBuy ? "bought" : "buy Now"}
             </button>
         </div>
 

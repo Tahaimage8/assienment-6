@@ -46,7 +46,7 @@ toast.error(`Item Deleted ${item.name}`);
     <div className='flex justify-between bg-[#ffffff] text-white p-5 mt-5 rounded-lg text-2xl'>
 
         <div className='text-[#627382]'>Total</div>
-        <div className='text-[#101727]'>{totalPrice}</div>
+        <div className='text-[#101727]'>{totalPrice}$</div>
 
     </div>
     <button onClick={handlePayment} className='btn w-full mt-5 bg-purple-600 text-white px-5 py-2 rounded-full hover:bg-purple-700'> Proceed to checkout</button>
