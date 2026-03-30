@@ -1,7 +1,7 @@
 import React from "react";
 import { ShoppingCart } from "lucide-react";
 
-const Navbar = () => {
+const Navbar = ({carts}) => {
 
 return (
 
@@ -49,7 +49,15 @@ FAQ
 <div className="flex items-center gap-6">
 
 
-<ShoppingCart className="hidden md:block cursor-pointer text-gray-600"/>
+<div className="relative">
+  <ShoppingCart className="hidden md:block cursor-pointer text-gray-600" />
+
+  {carts.length > 0 && (
+    <div className="absolute -top-1 -right-2 bg-red-500 text-white text-xs px-1.5 rounded-full">
+      {carts.length}
+    </div>
+  )}
+</div>
 
 <button className="hidden md:block text-gray-600 font-medium">
 Login

@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Design Pro Tool",
+    "description": "Advanced design platform for creating stunning visuals and UI/UX prototypes.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "Drag & drop editor", "Export to PNG/PDF"],
+    "icon": "https://i.ibb.co.com/q3tkskNw/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "TaskFlow Manager",
+    "description": "Streamline your workflow and manage tasks efficiently with automation.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Task automation", "Team collaboration", "Kanban boards"],
+    "icon": "https://i.ibb.co.com/TxLDYmk7/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "Portfolio Builder",
+    "description": "Create a professional portfolio website in minutes.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Custom domains", "SEO optimization", "Responsive templates"],
+    "icon": "https://i.ibb.co.com/1tf5m11y/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "ShopEasy Cart",
+    "description": "Complete eCommerce solution with cart and payment integration.",
+    "price": 59,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Payment gateway integration", "Inventory tracking", "Discount system"],
+    "icon": "/src/assets/products/shopping-cart.png"
+  },
+  {
+    "id": 5,
+    "name": "SocialBoost",
+    "description": "Grow your social media presence with smart scheduling tools.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Auto scheduling", "Analytics dashboard", "Multi-platform support"],
+    "icon": "https://i.ibb.co.com/q3dmf6QX/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "Content Writer AI",
+    "description": "AI-powered writing assistant for blogs, ads, and social content.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["AI text generation", "Grammar check", "SEO suggestions"],
+    "icon": "https://i.ibb.co.com/V0Q1h9WK/writing-2327400-1.png"
+  },
+  {
+    "id": 7,
+    "name": "Design Starter Kit",
+    "description": "Essential tools for beginners to start designing quickly.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["50+ starter templates", "Basic editing tools", "Export options"],
+    "icon": "https://i.ibb.co.com/q3tkskNw/design-tool.png"
+  },
+  {
+    "id": 8,
+    "name": "Operations Suite",
+    "description": "All-in-one operations management tool for growing teams.",
+    "price": 120,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Workflow automation", "Reporting tools", "User management"],
+    "icon": "https://i.ibb.co.com/TxLDYmk7/operation.png"
+  },
+  {
+    "id": 9,
+    "name": "Pro Portfolio Plus",
+    "description": "Advanced portfolio builder with premium customization options.",
+    "price": 149,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Premium themes", "Analytics integration", "Custom branding"],
+    "icon": "https://i.ibb.co.com/1tf5m11y/portfolio.png"
+  },
+  {
+    "id": 10,
+    "name": "SmartCart Pro",
+    "description": "Upgrade your online store with advanced cart features.",
+    "price": 79,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Abandoned cart recovery", "Advanced analytics", "Multi-currency support"],
+    "icon": "/src/assets/products/shopping-cart.png"
+  }
+]
