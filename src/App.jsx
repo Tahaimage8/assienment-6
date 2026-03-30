@@ -32,7 +32,7 @@ function App() {
   <Banner></Banner>
   <Star></Star>
   <div className='text-center mt-20 mb-15'>
-    <h2 className='text-5xl font-extrabold '>Premium Digital Tools</h2>
+    <h2 className='text-5xl font-extrabold mb-3'>Premium Digital Tools</h2>
     <p className='text-xl text-[#627382]'>Choose from our curated collection of premium digital products designed to boost your productivity and creativity.</p>
   </div>
   <div className="tabs tabs-box  justify-center bg-transparent ">
