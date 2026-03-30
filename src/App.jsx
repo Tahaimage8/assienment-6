@@ -5,6 +5,9 @@ import Banner from './file/banner/Banner'
 import Navbar from './file/nav/Navbar'
 import Star from './file/star section/Star'
 import Step from './file/step section/step'
+import Pricing from './file/pricingsection/Pricing'
+import Workflow from './file/workflow/Workflow'
+import Footer from './file/footer/footer'
 const stepPromise = fetch("/step.json").then(res => res.json());
 function App() {
 
@@ -21,7 +24,9 @@ function App() {
     <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
       <Step stepPromise={stepPromise} />
     </Suspense>
-
+    <Pricing></Pricing>
+    <Workflow></Workflow>
+    <Footer></Footer>
 </div>
     </>
   )

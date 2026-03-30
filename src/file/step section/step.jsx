@@ -4,7 +4,7 @@ const Step = ({ stepPromise }) => {
   const steps = use(stepPromise);
 
   return (
-    <div className="py-20 bg-gray-50  max-w-7xl mx-auto">
+    <div className="py-20   max-w-7xl mx-auto">
 
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold">Get Started In 3 Steps</h2>
