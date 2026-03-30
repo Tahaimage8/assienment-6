@@ -13,13 +13,13 @@ import Cart from './file/main/Cart'
 const stepPromise = fetch("/step.json").then(res => res.json());
 
 
+
+const getModels = async () => {
+  const res = await fetch('/models.json')
+  return res.json();
+}
+const productPromise = getModels();
 function App() {
-  
-  const getModels = async () => {
-    const res = await fetch('/models.json')
-    return res.json();
-  }
-  const productPromise = getModels();
   
   const [activeTab, setActiveTab] = useState('model');
   const [carts, setCarts] = useState([])

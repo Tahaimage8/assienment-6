@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="bg-[#0B1A2B] text-white px-6 py-14">
       <div className="max-w-6xl mx-auto">
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-10">
           
           <div className="md:col-span-2">
             <h2 className="text-2xl font-semibold mb-3">DigiTools</h2>
@@ -46,17 +46,7 @@ const Footer = () => {
               <li >Contact</li>
             </ul>
           </div>
-
-        </div>
-
-        <div className="mt-10 border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
-          
-          <p className="text-xs text-gray-400 text-center md:text-left">
-            © 2026 Digitools. All rights reserved.
-          </p>
-
-
-          <div className="flex items-center gap-3">
+                  <div className="flex items-center gap-3">
             <div className="w-8 h-8 flex items-center justify-center bg-white text-black rounded-full text-sm cursor-pointer hover:bg-gray-200 transition">
     <FaInstagram />
             </div>
@@ -67,6 +57,16 @@ const Footer = () => {
 <CiLinkedin />
             </div>
           </div>
+        </div>
+
+        <div className="mt-10 border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
+          
+          <p className="text-xs text-gray-400 text-center md:text-left">
+            © 2026 Digitools. All rights reserved.
+          </p>
+
+
+
 
 
           <div className="flex gap-4 text-xs text-gray-400">
