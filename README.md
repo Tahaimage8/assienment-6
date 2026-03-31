@@ -1,4 +1,4 @@
-A clean, user-friendly web app where you can easily explore and buy essential digital tools. It brings all the latest premium AI tools into one place, helping you stay productive without the hassle.
+A clean, user-friendly web app where you can easily explore and buy essential digital tools.
 
 ⚙️ Tech Stack
 ⚛️ React (Frontend)
