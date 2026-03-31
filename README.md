@@ -1,14 +1,4 @@
-🚀 AI Tools Marketplace
-
-A clean and interactive interface for users to explore and manage all premium AI tools in one place.
-
-📖 About The Project
-
-This project is developed with an aim to make it easier for users to explore and manage all AI tools.
-
-Users do not have to switch between multiple platforms. They can explore all AI tools, get more information about them, and manage their selected tools in a simple shopping cart.
-
-The primary focus was on making it fast, clean, and user-friendly. No complexity is added here.
+A clean, user-friendly web app where you can easily explore and buy essential digital tools. It brings all the latest premium AI tools into one place, helping you stay productive without the hassle.
 
 ⚙️ Tech Stack
 ⚛️ React (Frontend)
